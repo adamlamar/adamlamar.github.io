@@ -1,5 +1,5 @@
-{% if page.common-ext-js %}
-  {% for js in page.common-ext-js %}
+{% if layout.common-ext-js %}
+  {% for js in layout.common-ext-js %}
 	<script src="{{ js }}"></script>
   {% endfor %}
 {% endif %}
@@ -16,8 +16,8 @@
   {% endfor %}
 {% endif %}
 
-{% if page.common-js %}
-  {% for js in page.common-js %}
+{% if layout.common-js %}
+  {% for js in layout.common-js %}
     <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
     {% if js contains 'jquery' %}
       <script>
