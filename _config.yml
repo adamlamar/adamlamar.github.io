@@ -82,6 +82,7 @@ url-pretty: "https://adamlamar.github.io"  # eg. "deanattali.com/beautiful-jekyl
 
 # Fill in your Google Analytics ID to track your website using GA
 google_analytics: "UA-73140109-1"
+google_verify: "Y5te_JbMRZUNehBwbWKzSdEUFkwwoVt3Yhr8towfIi8"
 
 # Facebook App ID
 # fb_app_id: ""
