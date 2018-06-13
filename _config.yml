@@ -78,7 +78,7 @@ url-pretty: "https://adamlamar.github.io"  # eg. "deanattali.com/beautiful-jekyl
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-#disqus: ""
+disqus: "adamlamar"
 
 # Fill in your Google Analytics ID to track your website using GA
 google_analytics: "UA-73140109-1"
